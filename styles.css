@@ -105,3 +105,14 @@ legend {
 form {
   border: none;
 }
+
+#credit {
+  color: white;
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: 5px;
+}
+
+a {
+  color: white;
+}
