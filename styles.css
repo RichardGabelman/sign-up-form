@@ -111,8 +111,19 @@ legend {
   margin-bottom: 5px;
 }
 
-a {
+#credit a {
   color: white;
+}
+
+#register_login {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+#register_login a {
+  color: #596D48;
+  text-decoration: none;
 }
 
 input {
@@ -120,7 +131,7 @@ input {
   font-weight: 500;
   border: #E5E7EB solid 1px;
   border-radius: 4px;
-  height: 1.9em;
+  height: 2.2em;
   width: 20em;
   padding: 5px;
 }
@@ -129,6 +140,27 @@ input:focus {
   outline: none;
   border: blue solid 1px;
   box-shadow: 2px 1px 5px 1px rgb(0 0 0 / 15%);
+}
+
+#register_login {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3%;
+  padding-left: 4%;
+}
+
+button {
+  background-color: #596D48;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px 42px;
+  border: none;
+  border-radius: 10px;
+  width: 12em;
+  margin-bottom: 2%;
+  box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 15%);
 }
 
 input:invalid {
